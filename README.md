@@ -1,1 +1,4 @@
 # dermnet
+Bu çalışmada, Dermnet veri seti kullanılarak deri hastalıklarının sınıflandırılması için derin öğrenme modelleri uygulanmıştır. Özellikle Convolutional Neural Networks (CNN), InceptionV3 ve Xception modelleri kullanılarak transfer öğrenme yöntemi ile hastalıkların görüntüleri analiz edilmiştir. Dermnet veri seti, dermatolojik hastalıkların tanımlanması amacıyla geliştirilmiş bir veri seti olup, yaklaşık 19.500 görüntüden oluşmaktadır.
+
+Veri setindeki görüntüler üzerinde ön işleme adımları uygulanmış ve her model için uygun veri artırma teknikleri kullanılmıştır. Modellerin performansını değerlendirmek için doğruluk (accuracy), kayıp (loss) değerleri ve hata matrisleri (confusion matrix) incelenmiştir. Sonuçlar, Xception modelinin diğer modellere kıyasla daha yüksek doğruluk oranına sahip olduğunu göstermiştir. Çalışmada kullanılan transfer öğrenme yaklaşımı, eğitim verilerinin sınırlı olduğu durumlarda etkili sonuçlar elde etmeyi sağlamıştır.
